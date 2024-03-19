@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="styles.css">
+     <!-- Google fonts -->
+     <link rel="icon" type="Imagenes/png" href="Imagenes/cronometro.png">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+     <!-- Iconos -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <title>Cronometro</title>
+ </head>
+ <body>
+    <main class="contenedor-principal">
+         <div>
+             <div id="cronometro">00:00:00</div>
+                 <div class="contenedor-botones"> 
+                 <button id="boton-inicio-pausa" class="boton iniciar">
+                    <i class="bi bi-play-circle"></i>
+                 </button>
+                 <button id="boton-reiniciar" class="boton">
+                    <i class="bi bi-arrow-counterclockwise"></i>
+                 </button>
+             </div>   
+             <div id="gif"><img src="Imagenes/READY.gif" alt=""></div>   
+         </div>
+    </main>
+    <script src="app.js"></script>
+ </body>
+ </html>

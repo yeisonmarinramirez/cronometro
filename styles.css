@@ -1,0 +1,96 @@
+/*Estilos generarles*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height:  100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(Imagenes/ZONA.jpg)no-repeat center center/ cover;
+}
+
+ .contenedor-principal {
+    width:  300vw;
+    max-width: 600px;
+    min-height: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.138);
+    border: 10px solid rgba(21, 31, 29, 0.361);
+    border: none;
+    border-radius: 15%;
+    
+    
+}
+
+.contenedor-botones{
+    padding: 20px;
+    
+}
+
+/*Cronometro*/
+
+#cronometro{
+ width: 100%;
+ font-size: 80px;
+ font-weight: bold;
+ user-select: none;
+ color: azure;
+ font-family: "Protest Revolution", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ text-shadow: 10px 2px 2px rgba(0, 0, 0, 0.422);
+}
+
+.boton {
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa-iniciar i {
+    backdrop-filter: blur(100px);
+    background-color: #08e07024;
+    border-radius: 100%;
+    box-shadow: 10px 10px 20px black;
+    justify-content: center;
+    border: none;
+    
+    
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausa i {
+    backdrop-filter: blur(100px);
+    background-color: #36f09078;
+    border-radius: 100%;
+    box-shadow: inset 10px 5px 20px rgba(0, 0, 0, 0.624);
+    border: none;
+    
+}
+
+#boton-reiniciar{
+        backdrop-filter: blur(100px);
+        background-color: rgba(255, 0, 0, 0.172);
+        border-radius: 100%;
+        box-shadow: 10px 10px 20px black;
+        border: none;
+        
+    }
+#gif{
+    width: 101px;
+    height: 200px;
+    
+}
